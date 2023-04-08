@@ -1,0 +1,23 @@
+                  
+-- Make a back up of anything you can't lose, It is very easy to do. 
+ --  Back up any or all car files of your choosing and duplicate it to have a copy to work on.
+
+rsync -rI \
+    /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/  ~/Desktop/saResourcesBackup
+  
+-- Launch terminal and enter commands below
+
+
+1. mkdir ~/livemount
+           
+2. diskutil list 
+           
+3. sudo mount -o nobrowse -t apfs  /dev/disk1s5 ~/livemount
+           
+4. cd ~/livemount
+
+5. sudo kmutil install --volume-root ~/livemount --update-all
+           
+6. sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-snapshot. 
+
+7. Reboot and that's that.
