@@ -1,8 +1,12 @@
 # Disable Rounded Window Corners
-Big Sur brought about a lot of nonsense in my opinion. The quality of the desktop wallpapers have diminished down to a simpleton level of creativity.The one visible change that just turns my stomach is the rounded window corners, I absolutely detest tbese rounded window corners that were introduced in Big Sur. After searching for awhile oand not going anywhere, I finally found a solution. If it was not for ThemeEngine. I would have not been able to pull this off. I have included this within this repository as well.
+Big Sur brought about a lot of nonsense in my opinion. The quality of the desktop wallpapers have diminished down to a simpleton level of creativity.The one visible change that just turns my stomach is the rounded window corners, I absolutely detest these rounded window corners that were introduced in Big Sur. After searching for awhile and not going anywhere, I finally found a solution. If it was not for ThemeEngine. I would have not been able to pull this off. I have included this within this repository as well.
+
 
 # Instructions
-           
+
+> * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
+> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system. That gets very old after awhile.
+
 1. mkdir ~/livemount
            
 2. diskutil list - (It will be under (synthesized), yours may not be named disk2s5) 
