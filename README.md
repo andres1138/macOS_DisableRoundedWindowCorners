@@ -35,6 +35,11 @@ Error Domain=KMErrorDomain Code=34 "Missing Developer Kit: As of macOS 13.0, you
 
 7. reboot the comp and that's that.
 ---
+---  
+#### Caveat  
+> This must be done everytimne Apple puts out a minor macOS update, after reboot the ball sack corners are back. Rinse and repeat.
+>
+
 
 ### No More Rounded Corners.
 ![macOS disable rounded corners](./images/NoMoreRoundedCorners.png)
