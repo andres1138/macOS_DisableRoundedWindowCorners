@@ -1,6 +1,6 @@
 # Disable Rounded Window Corners
-Big Sur brought about a lot of nonsense in my opinion. The quality of the desktop wallpapers have diminished down to a simpleton level of creativity.The one visible change that just turns my stomach is the rounded window corners, I absolutely detest these rounded window corners that were introduced in Big Sur. After searching for awhile and not going anywhere, I finally found a solution. If it was not for ThemeEngine. I would have not been able to pull this off. I have included this within this repository as well.
-
+>If you detest the rounded corners that were introduced in Big Sur like I do. This will help you disable them. It made my stomach turn when I first laid eyes upon them. The nausea turned into bitter hatred.
+> This should work with the newer operating system but I do not know for sure as I do not have a mac at this point and time unfortunately.
 
 # Instructions
 
@@ -37,8 +37,8 @@ Error Domain=KMErrorDomain Code=34 "Missing Developer Kit: As of macOS 13.0, you
 ---
 ---  
 #### Caveat  
-> This must be done everytimne Apple puts out a minor macOS update, after reboot the ball sack corners are back. Rinse and repeat.
->
+> This must be done everytimne Apple puts out a minor macOS update, after installing update and rebooting the roundness returns once again turning my stomach as a look in disgust and agony,
+> Rinse and Repeat
 
 
 ### No More Rounded Corners.
