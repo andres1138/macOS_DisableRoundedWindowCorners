@@ -3,7 +3,7 @@
 > This should work with the newer operating system but I do not know for sure as I do not have a mac at this point and time unfortunately.
 
 # I DO NOT KNOW IF THIS WILL STILL WORK!
-> Unfortunately I have not been able to get a new Mac to test this out on. The mac I use now is obsoleete and not supported anymore.
+> Unfortunately I have not been able to get a new Mac to test this out on. The mac I use now is obsolete and not supported anymore.
 
 # Instructions
 
