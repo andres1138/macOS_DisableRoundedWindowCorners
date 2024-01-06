@@ -2,6 +2,9 @@
 >If you detest the rounded corners that were introduced in Big Sur like I do. This will help you disable them. It made my stomach turn when I first laid eyes upon them. The nausea turned into bitter hatred.
 > This should work with the newer operating system but I do not know for sure as I do not have a mac at this point and time unfortunately.
 
+# I DO NOT KNOW IF THIS WILL STILL WORK!
+> Unfortunately I have not been able to get a new Mac to test this out on. The mac I use now is obsoleete and not supported anymore.
+
 # Instructions
 
 > * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
