@@ -40,8 +40,8 @@ Error Domain=KMErrorDomain Code=34 "Missing Developer Kit: As of macOS 13.0, you
 ---
 ---  
 #### Caveat  
-> This must be done everytimne Apple puts out a minor macOS update, after installing update and rebooting the roundness returns once again turning my stomach as a look in disgust and agony,
-> Rinse and Repeat
+> This must be done everytime there is an macOS update, the kind of update that requires you to restart, after installing update and rebooting the roundness returns once again turning my stomach the same way it did when I first laid eyes upon it with Big Sur's introduction. 
+> Rinse and Repeat, and it will go away until the next update.
 
 
 ### No More Rounded Corners.
