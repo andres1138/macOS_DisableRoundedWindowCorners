@@ -5,6 +5,15 @@
 # I DO NOT KNOW IF THIS WILL STILL WORK!
 > Unfortunately I have not been able to get a new Mac to test this out on. The mac I use now is obsolete and not supported anymore.
 
+### Disable SIP   
+> Go into Apple Recovery and open the terminal and type in
+```
+csru disable
+
+# enable it back
+csru enable
+```
+
 # Instructions
 
 > * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
@@ -23,7 +32,7 @@
 > If you just want the rounded corners gone, then you can just take my edited DarkAqua.car file and replace the one in ~/livemount/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/DarkAqua.car
 
 
-> I apologize for not having a Aqua.car file ready, I live in dark mode, but I promise I am working on it.
+> I apologize for not having a Aqua.car file ready, I live in dark mode.
 
 5. sudo kmutil install --volume-root ~/livemount --update-all
 
