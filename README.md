@@ -21,8 +21,8 @@ csru enable
 
 1. mkdir ~/livemount
            
-2. diskutil list - (It will be under (synthesized), yours may not be named disk2s5) 
-           
+2. diskutil list  #(It will be under (synthesized), yours may not be named disk2s5)
+                      
 3. sudo mount -o nobrowse -t apfs  /dev/disk2s5 ~/livemount
            
 4. cd ~/livemount
