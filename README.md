@@ -8,10 +8,10 @@
 ### Disable SIP   
 > Go into Apple Recovery and open the terminal and type in
 ```
-csru disable
+csrutil disable
 
 # enable it back
-csru enable
+csrutil enable
 ```
 
 # Instructions
