@@ -51,7 +51,11 @@ Error Domain=KMErrorDomain Code=34 "Missing Developer Kit: As of macOS 13.0, you
 #### Caveat  
 > This must be done everytime there is an macOS update, the kind of update that requires you to restart, after installing update and rebooting the roundness returns once again turning my stomach the same way it did when I first laid eyes upon it with Big Sur's introduction. 
 > Rinse and Repeat, and it will go away until the next update.
+---   
+### Working with ThemeEngine   
+> When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
+####### I wish I could exaplin more and have an up to date car file for the newest macOS, I am currently trying to save up the money to do so. Hopefully by next year I will be able to purchase a new mac and update everything. I hope this helps anyone out there who despises these useless rounded corners.
 
 ### No More Rounded Corners.
 ![macOS disable rounded corners](./images/NoMoreRoundedCorners.png)
