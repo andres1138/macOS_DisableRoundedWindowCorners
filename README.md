@@ -33,7 +33,8 @@ diskutil list
 # mount your HD SS disk into livemount
 sudo mount -o nobrowse -t apfs  /dev/disk2s5 ~/livemount
 
-# Now make your changes within System Appearance bundle, if you just want to get rid of the rounded window corners, you can just drop my .car files to replace the ones you have
+# Now make your changes within System Appearance bundle, if you just want to get rid of the
+#rounded window corners, you can just drop my .car files to replace the ones you have
 # after making the edits, enter these commands
 
 sudo kmutil install --volume-root ~/livemount --update-all
