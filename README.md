@@ -54,10 +54,6 @@ sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-s
 
 ####### I wish I could exaplin more and have an up to date car file for the newest macOS, I am currently trying to save up the money to do so. Hopefully by next year I will be able to purchase a new mac and update everything. I hope this helps anyone out there who despises these useless rounded corners.
 
-### Please donate if possible
-> Recently a house fire destroyed my home and everything that had sentimental value to me burned to ashes, I am greatful I was able to get my cat out with me. I have been slowly trying to buiild everything back, any donations would help.
-#### BTC
-1FEGm3Bp45rzjfKKuGQbFsbWtFSmgVsaAP
 
 ### No More Rounded Corners.
 ![macOS disable rounded corners](./images/NoMoreRoundedCorners.png)
