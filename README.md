@@ -1,11 +1,11 @@
 # Disable Rounded Window Corners
->If you detest the rounded corners that were introduced in Big Sur like I do. This will help you disable them. It made my stomach turn when I first laid eyes upon them. The nausea turned into bitter hatred very quickly.
-> This should work with the newer operating system,  but I do not know for sure as I do not have a mac at this point and time unfortunately.
+> Big Sur introduced a lot of absolute nonsense, Notification Center cannot be disabled and removed, the wallpapers have diminished down to simpleton level of creativity, Finder got a logo make over it did not need along with a chunky title bar that is mostly dead space and above all as a final insult to injury the radius of the window corners got crancked up to a level that is way below good taste. If you detest these rounded window corners like I do. This will help you disable them. I honestly can't forgot how my stomach turned when realizing there was absolutely no way to revert them.
+> This will work with Ventura, it may work for the newer ones. I do not know, if someone out there tries and succeeds I would love to know.
 
 ### Disable SIP
 > Unfortunately System Integrity Protection must be disabled in order to make this work.
 > * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
-> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system. That gets very old after awhile.
+> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system. 
 
 #### Instructions
 ```
@@ -47,13 +47,13 @@ sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-s
 ```
 ---  
 #### Caveat  
-> This must be done everytime there is an macOS update, the kind of update that requires you to restart, after installing update and rebooting the roundness returns once again turning my stomach the same way it did when I first laid eyes upon it with Big Sur's introduction. 
+> This must be done everytime there is a macOS update, the kind of update that requires you to restart, after rebooting it is back to same bulls**t.
 > Rinse and Repeat, and it will go away until the next update.
 ---   
 ### Working with ThemeEngine   
-> When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
+> When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was to open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as a png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
-####### I wish I could exaplin more and have an up to date car file for the newest macOS, I am currently trying to save up the money to do so. Hopefully by next year I will be able to purchase a new mac and update everything. I hope this helps anyone out there who despises these useless rounded corners.
+###### Hopefully in the forseeable future I will be able to purchase a new Mac to be able to create car files for the current macOS.
 
 
 ### No More Rounded Corners.
