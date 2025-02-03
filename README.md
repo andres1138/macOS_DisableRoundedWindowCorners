@@ -37,8 +37,9 @@ sudo mount -o nobrowse -t apfs  /dev/disk2s5 ~/livemount
 #rounded window corners, you can just drop my .car files to replace the ones you have
 # after making the edits, enter these commands
 
+# I can't find the KDK for my specific build which is 22H417 to succesfully run this command, It can be skipped.
 sudo kmutil install --volume-root ~/livemount --update-all
-# ignore warnings
+
 
 # bless it and create the snap shot
 sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-snapshot
