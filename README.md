@@ -15,6 +15,9 @@
 ### Working with ThemeEngine   
 > When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was to open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as a png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
+### Will this work on current macOS?
+> There is no reason why this should not work for newer mac computers and current macOS. SIP needs to be disabled and a snapshot must be created in order to edit the .car files. The main files responsible for the hideous rounded corners are edited within this repository. I doubt mac has renamed them to something else. I would love to have updated versions, but am not able to purchase a new mac anytime soon.
+
 ###### If you would like to support me so that I can purchase a new mac and work on even more customizations including both dark and light mode. Donations are more than welcome and appreciated.
 
 ### BTC Address
