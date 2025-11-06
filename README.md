@@ -18,6 +18,9 @@
 ### Will this work on current macOS?
 > There is no reason why this should not work for newer mac computers and current macOS. SIP needs to be disabled and a snapshot must be created in order to edit the .car files. The main files responsible for the hideous rounded corners are edited within this repository. I doubt mac has renamed them to something else. I would love to have updated versions, but am not able to purchase a new mac anytime soon.
 
+## Send me your .car files and I will edit them for you
+> If you want to disable the rounded corners but are on a newer macOS, send me your .car files and I will edit them for you. I think it would be great to have .car files ready to be used for current macs.
+
 ###### If you would like to support me so that I can purchase a new mac and work on even more customizations including both dark and light mode. Donations are more than welcome and appreciated.
 
 ### BTC Address
