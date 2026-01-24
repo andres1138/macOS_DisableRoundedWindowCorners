@@ -6,23 +6,20 @@
 ### Disable SIP & Instructions
 > Unfortunately System Integrity Protection must be disabled in order to make this work.
 > * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
-> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system and that gets old.
+> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system and that shit gets old.
 > * Commands are in instructions.txt
 ---  
 #### Caveat  
-> This must be done everytime there is a macOS update, the kind of update that requires you to restart, after rebooting it is back to same bulls**t.
+> This must be done everytime there is a macOS update, the kind of update that requires you to restart, after rebooting it is back to same bullshit.
 > Rinse and Repeat, and it will go away until the next update.
 ---   
 ### Working with ThemeEngine   
 > When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was to open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as a png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
 ### Will this work on current macOS?
-> There is no reason why this should not work for newer mac computers and current macOS. SIP needs to be disabled and a snapshot must be created in order to edit the .car files. The main files responsible for the hideous rounded corners are edited within this repository. I doubt mac has renamed them to something else. I would love to have updated versions, but am not able to purchase a new mac anytime soon.
+> No!!!, Apple has made sure it will not. It will not matter how much editing takes place within the system .car files. It will always revert back to how they want it. I do not understand why they do not add a fucking option to customize it yourself. Wait I do, it is because they have tapped into true celestial creativity that most people will never know or see. 
 
-## Send me your .car files and I will edit them for you
-> If you want to disable the rounded corners but are on a newer macOS, send me your .car files and I will edit them for you. I think it would be great to have .car files ready to be used for current macs.
-
-###### If you would like to support me so that I can purchase a new mac and work on even more customizations including both dark and light mode. Donations are more than welcome and appreciated.
+###### If you would like to support me so that I can add even more customizations to the operating system user interface that goes beyond window corners. Anything and Everything that is accesible withing the .car file can be altered. Imagination is the limit, custom artwork can be added. No more hacky colored window folders. Check out the screen shot of my Solid State drive icon. It does not look hacky and its registered as the actual icon for it. It is not copied and pasted. There is a difference between janky copied and pasted art as icons and actually creating icons.
 
 ### BTC Address
 > 1FEGm3Bp45rzjfKKuGQbFsbWtFSmgVsaAP
