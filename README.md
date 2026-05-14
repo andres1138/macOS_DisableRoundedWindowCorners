@@ -1,13 +1,51 @@
 # macOS Disable Rounded Window Corners
 > Big Sur introduced a lot of absolute nonsense, Notification Center cannot be disabled and removed, the wallpapers have diminished down to a simpleton level of creativity, Finder got a logo make over it did not need along with a chunky title bar that is mostly dead space and above all as a final insult to injury the radius of the window corners got cranked up to a level that is way below good taste. If you detest these rounded window corners like I do. This will help you disable them. I honestly can't forget how my stomach turned when realizing that I was stuck with it. I had to figure out a way to get rid of them and achieved that goal.
-> This will work with Ventura and unfortunately will not work on the newer mac operating systems. Apple has gone above and beyond to force these rounded corners upon its customers. They believe it is an amazing aesthetic touch that was blessed upon the operating system by them. Our feeble minds do not know any better so therefore they will not let a civilian alter their divine creations. It is essentially shoved down your throat and you have no choice but to suck it down and force yourself to love it and deal with it. The arrogance from Apple is outstanding. What the fuck has happened to Apple? Way back in the days, when Apple care actually was worth the price. Whenever you would get on the phone with Apple support. You would learn terminal commands and a bunch of other awesome stuff because support knew what they were doing and in turn would pass the knowledge to you. Now when you contact support. The only solution of an answer you get is to erase, uninstall, reinstall and reboot. None of them have ever entered a terminal command. It is an absolute joke. For example, I upgraded the ram in my 2017 21" imac and unfortunately they were faulty ram sticks. My imac kept crashing. I contacted Apple to take advantage of the Apple care plan I had. All I wanted was a simple answer whether or not it was the ram stick causing the issues. I went back and forth with support, they had me take it to the Apple store near me where they just reinstalled the operating system and after that they just outsourced it to a shit show of a place called Mobile Kanagaroo. It was painfully obvious it was a ram issue and I just wanted a definite answer before going through the painstaking process of removing the ram sticks and installing new ones. Apple and the the shit show of a store called Mobile Kangaroo berated me about how I was wrong and it was not the ram stick that was causing the crashes. I just needed to reinstall macOS, especially from Mobile Kangaroo. This fucking asshole techinician there actually had the nerve to tell me he is an expert that is detailed oriented. He works in the industry and he does not go by guesses, he goes by facts. He checked everything and the ram sticks are fine. The fact that apple even outsourced to them is very concerning. This store literally scams individuals that do not know any better all day long. They told me if I paid an additional fee or some shit like that they can do a forensic inspection. Not only do you get fucked by the Apple Care cost. Apple outsources to these parasitic cunts that will try to fuck you out of more money. This is what Apple has become. I knew it would get worse when they designed a computer to look like a trash can which failed because that is what it was destined to do. Steve Jobs would have never done anything like that. When Steve Jobs died, so did Apple that made Apple great. Now Apple has its own head shoved so far up its own ass, it has forgotten the smell of its own shit. When an individual or corporation is that far gone. There is no turning back. I know I will never ever own a mac ever again. I went down this rabbit hole to get rid of these useless rounded corners and finally found a solution. Not being able to do this in the newer mac operating systems is the final straw for me. Ventura will be the last macOS I will ever use. I will be migrating over to one of the linux distros such as Manjaro.
+
+> [!CAUTION]
+>  Backup any and all files that will be edited.
+
+> [!WARNING]
+>  Unplug any external GPUs before attempting this.
 
 
-### Disable SIP & Instructions
-> Unfortunately System Integrity Protection must be disabled in order to make this work.
-> * REMEMBER to unplug any EGPU's and external monitors before entering in these commands.
-> * I speak from expierence, if not unplugged, you will end up reinstalling the operating system and that shit gets old.
-> * Commands are in instructions.txt
+> [!NOTE]
+>  This works and has been tested on macOS 15.5
+
+
+### Disable SIP & Authenticated Root Volume
+```
+csrutil disable
+csrutil authenticated-root disable
+```
+### Backup System Appearance Resources
+```
+# I chose to back the resources to a folder on my desktop
+rsync -rI \
+    /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/  ~/Desktop/saResourcesBackup
+```
+
+### Find the disk volume 
+```
+# this command will find the correct disk instead of manually seaching for it with diskutil list command
+df / | tail -1 | awk '{print $1}' | sed 's/s[0-9]*$//'
+# mine is /dev/disk2s5
+```
+### Create the livemount directory and mount it
+```
+mkdir ~livemount
+
+# mount it
+sudo mount -o nobrowse -t apfs  /dev/disk1s5 ~/livemount
+
+# At this point you can copy the DarkAqua.car files into ~/livemount/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/
+
+# After you have replaced the DarkAqua.car you will need to bless it so macOS boots from the modified filesystem
+sudo bless --mount ~/livemount --bootefi --create-snapshot
+```
+## Reboot and the annoying rounded corners are gone.
+
+### I have already done the work for you and have ready DarkAqua.car files for the newer macOS operating systems.
+
 ---  
 #### Caveat  
 > This must be done everytime there is a macOS update, the kind of update that requires you to restart, after rebooting it is back to same bullshit.
@@ -16,10 +54,8 @@
 ### Working with ThemeEngine   
 > When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was to open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as a png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
-### Will this work on current macOS?
-> No!!!, Apple has made sure it will not. It will not matter how much editing takes place within the system .car files. It will always revert back to how they want it. I do not understand why they do not add a fucking option to customize it yourself. Wait I do, it is because they have tapped into true celestial creativity that most people will never know or see. 
 
-###### If you would like to support me so that I can add even more customizations to the operating system user interface that goes beyond window corners. Anything and Everything that is accesible withing the .car file can be altered. Imagination is the limit, custom artwork can be added. No more hacky colored window folders. Check out the screen shot of my Solid State drive icon. It does not look hacky and its registered as the actual icon for it. It is not copied and pasted. There is a difference between janky copied and pasted art as icons and actually creating icons.
+
 
 ### BTC Address
 > 1FEGm3Bp45rzjfKKuGQbFsbWtFSmgVsaAP
