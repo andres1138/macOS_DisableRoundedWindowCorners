@@ -1,7 +1,4 @@
                   
--- Make a back up of anything you can't lose, It is very easy to do. 
- --  Back up any or all car files of your choosing and duplicate it to have a copy to work on.
-
 rsync -rI \
     /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/  ~/Desktop/saResourcesBackup
   
@@ -9,15 +6,20 @@ rsync -rI \
 
 
 1. mkdir ~/livemount
-           
-2. diskutil list 
-           
+
+# find your disk with this command           
+2. df / | tail -1 | awk '{print $1}' | sed 's/s[0-9]*$//'
+# mine is /dev/disk2s5
+ 
+# mount it          
 3. sudo mount -o nobrowse -t apfs  /dev/disk1s5 ~/livemount
            
 4. cd ~/livemount
 
-5. sudo kmutil install --volume-root ~/livemount --update-all
-           
+# This command is for older macOS operating systems such as High Sierra           
 6. sudo bless --folder ~/livemount/System/Library/CoreServices --bootefi --create-snapshot. 
+
+# This is the updated command to bless the mounted folder
+6A = sudo bless --mount ~/livemount --bootefi --create-snapshot
 
 7. Reboot and that's that.
