@@ -1,6 +1,10 @@
 # macOS Disable Rounded Window Corners
-> Big Sur introduced a lot of absolute nonsense, Notification Center cannot be disabled and removed, the wallpapers have diminished down to a simpleton level of creativity, Finder got a logo make over it did not need along with a chunky title bar that is mostly dead space and above all as a final insult to injury the radius of the window corners got cranked up to a level that is way below good taste. If you detest these rounded window corners like I do. This will help you disable them. I honestly can't forget how my stomach turned when realizing that I was stuck with it. I had to figure out a way to get rid of them and achieved that goal.
+> Big Sur introduced a lot of absolute nonsense, Notification Center cannot be disabled and removed, the wallpapers have diminished down to a simpleton level of creativity, Finder got a logo make over it did not need along with a chunky title bar that is mostly dead space and above all as a final insult to injury the radius of the window corners got cranked up to a level that is way below good taste. If you detest these rounded window corners like I do. This will help you disable them. I honestly can't forget how my stomach turned when realizing that I was stuck with it. I had to figure out a way to get rid of them and achieved that goal. The is the original repo to help others in need.
+---
+> [!NOTE]
+>  If you take a look at my png's I created you can see that I created a very subtle 3px corner radius and the reason being is that if I took the easy way out and just slopped it a single color with a 90 degree corner. It does not have that smooth aesthetic to it. Why go from extremely rounded to extrememly square when you can go back to what Apple had in the good old days.
 
+---
 > [!CAUTION]
 >  Backup any and all files that will be edited.
 
