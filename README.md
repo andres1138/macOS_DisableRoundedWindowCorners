@@ -58,13 +58,5 @@ sudo bless --mount ~/livemount --bootefi --create-snapshot
 ### Working with ThemeEngine   
 > When you have found the specific piece of graphic to customize, such as these window corners, you may run into an issue where ThemeEngine will not save. What worked for me was to open the graphic from ThemeEngine to Photoshop or any image editor you use. When you are finished with your customization edits, save the image as a png, and drag it onto the unedited graphic within ThemeEngine and it should save without any problems. 
 
-
-
-
-### BTC Address
-> 1FEGm3Bp45rzjfKKuGQbFsbWtFSmgVsaAP
-### ETH Address
-> 0x72982BdEd804E4dD320Ea5F308b9201209f4C34F
-
 ### No More Rounded Corners.
 ![macOS disable rounded corners](./images/NoMoreRoundedCorners.png)
