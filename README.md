@@ -48,7 +48,7 @@ sudo bless --mount ~/livemount --bootefi --create-snapshot
 ```
 ## Reboot and the annoying rounded corners are gone.
 
-### I have already done the work for you and have ready DarkAqua.car files for the newer macOS operating systems.
+### I have already done the work for you and have ready DarkAqua.car files for the newer macOS operating systems. It is created exactly how apple has created it with the difference being a 3px corner radius to match what Apple had always used before.
 
 ---  
 #### Caveat  
